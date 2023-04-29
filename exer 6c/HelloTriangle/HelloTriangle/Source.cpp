@@ -129,7 +129,7 @@ int main()
 
 		glUniform4f(colorLoc, 0.0f, 0.5f, 0.0f, 1.0f); // Enviando cor para variável uniform inputColor (Muda a cor do triângulo)
 
-		glDrawArrays(GL_TRIANGLES, 0, 6);
+		glDrawArrays(GL_POINTS, 0, 1);
 
 		// Chamada de desenho - drawcall
 		// CONTORNO - GL_LINE_LOOP
@@ -220,15 +220,9 @@ int setupGeometry()
 	GLfloat vertices[] = {
 
 	//    x     y     z
-		-0.5, -0.8,  0.0, // v0
-		 0.5, -0.8,  0.0, // v1
-		 0.0,  0.0,  0.0, // v2
-
+		0.0f, 0.0f, 0.0f,
 	// Segundo Triângulo
-
-		-0.5,  0.8,  0.0, // v3
-		 0.5,  0.8,  0.0, // v4
-		 0.0,  0.0,  0.0, // v5       
+		0.0f, 0.0f, 0.0f,
 	};
 
 	GLuint VBO, VAO;
