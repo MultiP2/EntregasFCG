@@ -1,0 +1,36 @@
+Number of different tiles: 
+2
+
+Tile types:
+magma
+ground
+
+Tileset Paths:
+../Tilesets/Ground_Rocky2_256x128.png
+../Tilesets/Ground_Rocky2_256x128.png
+
+Normalized Textures Dimensions:
+0.33333333333f, 0.2f
+0.33333333333f, 0.2f
+
+Tileset Offsets:
+0.66666666666f, 0.6f
+0.33333333333f, 0.2f
+
+TileField dimensions:
+10, 10
+
+TileField layout:
+1 1 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 0 1
+1 1 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 0 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 0 1
+1 1 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 0 1
+1 1 1 1 1 1 1 1 1 1
+
+Number of treasures:
+2
